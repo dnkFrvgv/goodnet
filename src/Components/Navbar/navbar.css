@@ -7,6 +7,17 @@
 
 /* LOGO */
 
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+
+.logo-text{
+  color: white;
+  font-size: 35px;
+  padding-left: 5px;
+}
+
 /* .navbar-logo {
   
 } */

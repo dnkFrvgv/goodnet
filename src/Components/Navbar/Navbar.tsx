@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from  '../../Assets/Logo.png'
+import logo from  '../../Assets/Goodnet_small_logo.png'
 import "./navbar.css"
 import items from "./NavbarItems"
 
@@ -17,8 +17,9 @@ function Navbar({}: props) {
 
   return (
     <nav className='navbar flex space-between center-horizontal text-white'>
-        <a href="#">
+        <a href="#" className='logo-container'>
           <img className='navbar-logo' src={logo} alt="Logo" />
+          <h1 className='logo-text'>GoodNet</h1>
         </a>
 
         <div className='hide-menu'>
