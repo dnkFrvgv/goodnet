@@ -1,24 +1,29 @@
 export interface NavbarItem{
   title: string,
-  url: string
+  url: string,
+  className: string
 }
 
 const NavbarItems: NavbarItem[] = [
   {
     title: "Início",
-    url: "#"
+    url: "#",
+    className: 'navbar-items active'
   },
   {
     title: "Planos",
-    url: "#"
+    url: "#",
+    className: 'navbar-items'
   },
   {
     title: "Contato",
-    url: "#"
+    url: "#",
+    className: 'navbar-items'
   },
   {
     title: "Central do cliente",
-    url: "#"
+    url: "#",
+    className: 'navbar-items'
   }
 ];
 

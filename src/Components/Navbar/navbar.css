@@ -1,0 +1,173 @@
+.navbar{
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px
+  
+}
+
+/* LOGO */
+
+/* .navbar-logo {
+  
+} */
+
+/* MENU */
+
+.hide-menu{
+  display: none;
+}
+
+.menu-icon-container{
+  display: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.menu-lines{
+  width: 35px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all .5s ease-in-out;
+}
+
+.menu-lines::before, .menu-lines::after{
+  content: "";
+  position:absolute;
+  width: 35px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all .5s ease-in-out;
+}
+
+.menu-lines::before{
+  transform: translateY(-13px)
+}
+
+.menu-lines::after{
+  transform: translateY(13px)
+}
+
+/* MENU ANIMATION */
+
+.menu-icon-container.active .menu-lines{
+  transform: translateX(-40px);
+  background: transparent;
+}
+
+.menu-icon-container.active .menu-lines::before{
+  transform: rotate(45deg) translate(35px, -35px)
+}
+
+.menu-icon-container.active .menu-lines::after{
+  transform: rotate(-45deg) translate(35px, 35px)
+}
+
+/* NAVBAR LISTS */
+
+.navbar-list-container{
+  display: flex;
+}
+
+.navbar-items{
+  position: relative;
+  padding: 8px  5px;
+  margin: 0 20px;
+  color: #fdfdfdb2;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+/* UNDERLINE */
+
+.navbar-items::after{
+  content: "";
+  position:absolute;
+  border-radius: 2px;
+  background-color: #6968ca;
+  height: 3px;
+  width: 0;
+  bottom: -3px;
+  left: 0;
+  transition: 0.2s;
+}
+
+.navbar-items:hover{
+  color: #fff;
+
+}
+.navbar-items:hover::after{
+  width: 100%;
+}
+
+/* ACTIVE ITEM */
+
+.navbar-items.active{
+  color: #fff;
+}
+.navbar-items.active::after{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 890px) {
+
+  
+  .hide-menu{
+    display: block;
+  }
+
+  .navbar-list-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 350px;
+    top: 80px;
+    height: 500px;
+    right: -100%;
+  }
+
+  .navbar-list-container.active-menu{
+    right: 0;
+    background: linear-gradient(#5354a2,#3d3d6b);
+    transition: all 0.5s ease
+    ;
+    z-index: 1;
+    padding: 10px 0;
+  }
+
+  .navbar-items{
+    display: block;
+    padding: 15px;
+
+    position: relative;
+    text-align: center;
+  }
+
+  .navbar-items::after{
+    background-color: #ffffff;
+  }
+  
+  .navbar-items:hover{
+    color: #fff;
+  
+  }
+  .navbar-items:hover::after{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-list-container{
+    width: 100%;
+  }
+}

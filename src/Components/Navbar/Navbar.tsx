@@ -1,8 +1,7 @@
 import React from 'react'
 import logo from  '../../Assets/Logo.png'
-import "./Navbar.css"
+import "./navbar.css"
 import items from "./NavbarItems"
-import { FaBars,FaTimes } from "react-icons/fa";
 
 interface props{
 
@@ -22,12 +21,11 @@ function Navbar({}: props) {
           <img className='navbar-logo' src={logo} alt="Logo" />
         </a>
 
-        <div className='menu-icon-container' onClick={HandleMenuClick}>
-        {IsMenuOpened ? 
-          <FaTimes className='menu-icon-t'/>
-          :
-          <FaBars className='menu-icon'/>
-        }
+        <div className='hide-menu'>
+
+        <div className={IsMenuOpened ?'menu-icon-container active' : 'menu-icon-container' } onClick={HandleMenuClick}>
+          <span className="menu-lines"></span>
+        </div>
         </div>
 
 
@@ -35,7 +33,7 @@ function Navbar({}: props) {
           {items.map((item, index)=>{
             return (
               <li>
-                <a key={index} className='navbar-items' href={item.url}>{item.title}</a>
+                <a key={index} className={item.className} href={item.url}>{item.title}</a>
               </li>
             )
           })}

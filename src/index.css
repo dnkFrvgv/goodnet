@@ -8,11 +8,13 @@
 }
 
 body{
-  background-color: #000300;
+  /* background-color: #292929; */
+
+  background-color: #01001B;
   min-height: 100vh;
   min-width:  100px;
   overflow-x: hidden;
-  padding: 0px 80px; 
+  /* padding: 0px 80px;  */
 }
 
 ul {
