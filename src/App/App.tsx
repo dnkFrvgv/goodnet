@@ -1,12 +1,19 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
-// import './App.css';
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+
+// pages
+import Home from '../Pages/Home/Home';
+
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar/>
-    </div>
+      <Routes>
+        <Route path='/' Component={Home}/>
+      </Routes>
+    </Router>
   );
 }
 
