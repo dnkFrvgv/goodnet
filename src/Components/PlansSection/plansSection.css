@@ -1,0 +1,182 @@
+.plans{
+  color: #fff;
+  /* background-color: rgb(77, 78, 95); */
+  /* background-color: rgb(167, 174, 196); */
+
+  /* padding: 5%; */
+  min-height: 900px; 
+   font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  /* font-family: "montserrat"; */
+}
+
+
+/* TITLE */
+
+.plans-title-container{
+
+  padding: 70px 0 40px 0;   
+}
+
+.plans-title{
+  color:#fff;
+
+}
+
+
+/* PLANS */
+
+
+
+/* .prices-cards{
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 0px
+} */
+
+.plans-container{
+  display: flex;
+  align-items: center;
+  /* width: 52%; */
+  /* justify-content: space-between; */
+}
+
+.plan-card{
+  padding: 20px;
+  /* box-shadow: 5px 5px 5px 0px rgba(170, 168, 168, 0.164); */
+  /* filter: drop-shadow(5px 5px 5px rgba(100, 99, 99, 0.288)); */
+  margin: 10px;
+  max-height: 550px;
+  min-height: 500px;
+  max-width:360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  background: linear-gradient(#fff,#d8d8d8);
+
+  /* #110f36; */
+
+  border-radius: 15px;
+}
+
+.plan-card.special{
+  max-height: 600px;
+  min-height: 550px;
+  /* height: 600px; */
+  color: #fff;
+  background: linear-gradient(#4442B0,#1F1E75);
+  /* width:360px; */
+}
+
+.plan-card .title{
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+
+
+  
+}
+
+.plan-card .mega
+{
+/* color:#ffffff; */
+text-align:center;
+vertical-align:text-top;
+font-size:45px;
+box-shadow: "1px 5px 5px rgba(0,0,0,0.25)"
+
+}
+
+
+.plan-card-header{
+  padding: 25px;
+  text-align: center;
+
+}
+
+.plan-feature-list{
+  padding: 0;
+  margin: 0;
+}
+
+.plan-feature{
+  margin: 0;
+  padding-left: 25px;
+  font-size: 15px;
+  position: relative;
+}
+
+.plan-feature::before{
+  left: 0;
+  content: "\2714";
+  color: #fff;
+  position: absolute;
+}
+
+/* price */
+
+.plan-currency{
+  font-size: 25px;
+  /* align-self: flex-start; */
+  font-style: italic;
+  /* font-size: 80px; */
+  font-weight: 500;
+  color: #4442b0;
+  font-family: 'Barlow', sans-serif;
+/* justify-content: flex-start; */
+}
+
+.plan-price{
+  font-family: '', sans-serif;
+  font-size: 60px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+}
+
+.plan-month{
+  font-weight: 500;
+  color: #4442b0;
+  font-size: 25px;
+  align-self: flex-end;
+font-family: 'Barlow', sans-serif;
+  
+}
+
+/* BTN */
+
+.plan-btn{
+  
+}
+
+
+@media screen and (max-width: 1000px) {
+  .plans-container{
+    display: block;
+    /* align-items: center; */
+    /* width: 52%; */
+    /* justify-content: space-between; */
+  }
+
+  .plan-card.special{
+    max-height: 600px;
+    min-height: 450px;
+    /* height: 600px; */
+    color: #fff;
+    background: linear-gradient(#4442B0,#1F1E75);
+    /* width:360px; */
+  }
+
+  
+}
+
+@media screen and (max-width: 600px) {
+
+
+}

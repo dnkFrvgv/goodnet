@@ -1,8 +1,9 @@
 import React from 'react'
+import "./vantagensSection.css"
 
 function VantagensSection() {
   return (
-    <div>vantagensSection</div>
+    <section className='vantagens'>vantagensSection</section>
   )
 }
 

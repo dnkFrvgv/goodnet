@@ -3,6 +3,7 @@ import logo from  '../../Assets/Goodnet_small_logo.png'
 import "./navbar.css"
 import items from "./NavbarItems"
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 
 interface props{
 
@@ -31,26 +32,26 @@ function Navbar({}: props) {
 
   return (
     <section className='f'>
-
+      
     <nav className={`navbar flex space-between center-vertical text-white ${stickyClass?"sticky":""}`}>
-        <a href="#" className='logo-container'>
-          <img className='navbar-logo' src={logo} alt="Logo" />
+        <Link to="/"className='logo-container'>
+          {/* <img className='navbar-logo' src={logo} alt="Logo" /> */}
           <h1 className='logo-text'>GoodNet</h1>
-        </a>
+        </Link>
 
         <div className='hide-menu'>
 
+
+        
         <div className={IsMenuOpened ?'menu-icon-container active' : 'menu-icon-container' } onClick={HandleMenuClick}>
           <span className="menu-lines"></span>
         </div>
         </div>
-
-
         <ul className={IsMenuOpened ?'navbar-list-container active-menu' :  'navbar-list-container' }>
           {items.map((item, index)=>{
             return (
               <li>
-                <a key={index} className={item.className} href={item.url}>{item.title}</a>
+                <Link key={index} className={item.className} to={item.url}>{item.title}</Link>
               </li>
             )
           })}

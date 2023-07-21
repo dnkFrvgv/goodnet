@@ -7,12 +7,12 @@ export interface NavbarItem{
 const NavbarItems: NavbarItem[] = [
   {
     title: "Início",
-    url: "#",
+    url: "/",
     className: 'navbar-items active'
   },
   {
     title: "Planos",
-    url: "#",
+    url: "/planos",
     className: 'navbar-items'
   },
   {
