@@ -39,7 +39,7 @@ function Navbar() {
     <section className='f'>
       
     <nav className={`navbar flex space-between center-vertical text-white ${stickyClass?"sticky":""}`}>
-        <Link to="/"className='logo-container'>
+        <Link to="goodnet/"className='logo-container'>
             <img className='navbar-logo' src={logoWhite} alt="Logo" />
         </Link>
 

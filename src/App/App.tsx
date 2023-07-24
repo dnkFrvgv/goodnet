@@ -10,7 +10,7 @@ import PlansSection from '../Components/PlansSection/PlansSection';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/goodnet'>
       <Navbar/>
 
       <Routes>
