@@ -1,8 +1,60 @@
 .vantagens{
-  height: 300px;
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #7498ff;
+  color: #fff;
+  text-align: center;
+  background-color: #3c4a97;
+  padding: 50px;
+}
+
+.vantagens .title{
+  margin: 15px;
+}
+
+.vantagens .cards-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vantagens .card{
+  padding: 15px;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  max-width: 280px;
+  min-height: 200px;
+
+  text-align: center; 
+}
+
+.vantagens .icon{
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+
+.vantagens .card h1{
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .vantagens .cards-container{
+    flex-direction: column;
+  }
 }
