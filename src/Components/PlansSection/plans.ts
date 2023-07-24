@@ -13,18 +13,18 @@ const Plans: plan[] = [
     title:'super',
     mega: 100,
     price: "59,90",
-    vantagem1: "lorem",
-    vantagem2: "lorem",
-    vantagem3: "lorem",
+    vantagem1: "Lorem ipsum dolor sit amet.",
+    vantagem2: "Lorem ipsum dolor sit amet.",
+    vantagem3: "Lorem ipsum dolor sit amet.",
     className: "plan-card"
   },
   {
     title:'turbo',
     mega: 150,
     price: "79,90",
-    vantagem1: "lorem",
-    vantagem2: "lorem",
-    vantagem3: "lorem",
+    vantagem1: "Lorem ipsum dolor sit amet.",
+    vantagem2: "Lorem ipsum dolor sit amet.",
+    vantagem3: "Lorem ipsum dolor sit amet.",
     className: "plan-card special"
 
   },
@@ -32,9 +32,9 @@ const Plans: plan[] = [
     title:'ultra',
     mega: 200,
     price:"99,90",
-    vantagem1: "lorem",
-    vantagem2: "lorem",
-    vantagem3: "lorem",
+    vantagem1: "Lorem ipsum dolor sit amet.",
+    vantagem2: "Lorem ipsum dolor sit amet.",
+    vantagem3: "Lorem ipsum dolor sit amet.",
     className: "plan-card"
 
   }
