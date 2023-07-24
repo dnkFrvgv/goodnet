@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed062a39.css",
+    "main.js": "/static/js/main.b13a6283.js",
+    "static/media/background.png": "/static/media/background.7c9ad07cedce914f6673.png",
+    "static/media/man-phone.png": "/static/media/man-phone.6940a6c40e5549e2a1ef.png",
+    "static/media/image.png": "/static/media/image.3fcbbc2611518e275c78.png",
+    "index.html": "/index.html",
+    "main.ed062a39.css.map": "/static/css/main.ed062a39.css.map",
+    "main.b13a6283.js.map": "/static/js/main.b13a6283.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed062a39.css",
+    "static/js/main.b13a6283.js"
+  ]
+}
