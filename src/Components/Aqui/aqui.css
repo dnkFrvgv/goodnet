@@ -1,0 +1,24 @@
+.aqui{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.aqui-texts h1{
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .aqui{
+    flex-direction: column;
+  }
+
+  .aqui-texts{
+    margin: 50px;
+  }
+
+
+
+}
