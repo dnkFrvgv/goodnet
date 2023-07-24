@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/goodnet/static/css/main.ed062a39.css",
-    "main.js": "/goodnet/static/js/main.9eb4be0a.js",
+    "main.js": "/goodnet/static/js/main.d2650701.js",
     "static/media/background.png": "/goodnet/static/media/background.7c9ad07cedce914f6673.png",
     "static/media/man-phone.png": "/goodnet/static/media/man-phone.6940a6c40e5549e2a1ef.png",
     "static/media/image.png": "/goodnet/static/media/image.3fcbbc2611518e275c78.png",
     "index.html": "/goodnet/index.html",
     "main.ed062a39.css.map": "/goodnet/static/css/main.ed062a39.css.map",
-    "main.9eb4be0a.js.map": "/goodnet/static/js/main.9eb4be0a.js.map"
+    "main.d2650701.js.map": "/goodnet/static/js/main.d2650701.js.map"
   },
   "entrypoints": [
     "static/css/main.ed062a39.css",
-    "static/js/main.9eb4be0a.js"
+    "static/js/main.d2650701.js"
   ]
 }
