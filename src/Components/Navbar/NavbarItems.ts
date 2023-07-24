@@ -8,7 +8,7 @@ const NavbarItems: NavbarItem[] = [
   {
     title: "Início",
     url: "/",
-    className: 'navbar-items active'
+    className: 'navbar-items'
   },
   {
     title: "Planos",
